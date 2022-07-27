@@ -1,0 +1,6 @@
+#!/bin/sh
+
+
+poetry run mypy .
+
+poetry run flake8 .
